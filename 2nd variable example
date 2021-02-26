@@ -1,0 +1,23 @@
+// variable example
+
+#include<iostream.h>
+#include<conio.h>
+
+void main()
+{
+  int a=10,b=20;
+  float c=55.40;
+  char d='a';
+  clrscr();
+  
+  cout<<"Value of a is : "<<a<<endle;
+  cout<<"Value of b is : "<<b<<endle;
+  cout<<"value of c is : "<<c<<endle;
+  cout<<"value of d is : "<<d<<endle;
+ 
+  int e;
+  cout<<"Enter the value of e";
+  cin>>e;
+  getch();
+ 
+} 

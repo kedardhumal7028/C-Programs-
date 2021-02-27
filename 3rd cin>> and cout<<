@@ -1,0 +1,18 @@
+// cin>> and cout<< 
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+  int a;
+  float b;
+  clrscr();
+  
+  cout<<"Enter value of a :";
+  cin>>a;
+  cout<<"Enter value of b :";
+  cin>>b;
+  cout<<"The value of a is :"<<a<<endle;
+  cout<<"The value of b is :"<<b;
+  getch();
+}  

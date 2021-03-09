@@ -1,0 +1,27 @@
+//One data type is convert another data type means Typecasting
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a=45;
+  float b=10.520;
+  cout<<"The value of a is:"<<(float)a<<endl;
+                 //Or
+  cout<<"The value of a is:"<<float(a)<<endl;
+  
+  cout<<"The value of b is:"<<(int)b<<endl;
+                //Or
+  cout<<"The value of b is:"<<int(b)<<endl;
+  
+  //Ex
+  
+  int c=int(b);
+  cout<<"The expression is:"<<a+b<<endl;
+  
+  cout<<"The expression is:"<<a+int(b)<<endl;
+                //Or
+  cout<<"The expression is:"<<a+(int)b<<endl;
+  return 0;
+}  

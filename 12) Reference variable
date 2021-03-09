@@ -1,0 +1,13 @@
+//Ex 
+//suppose one persone name---> Rohandas-----> Monty------> Rohu-------> Dangerous coder
+
+#include<iostream>
+using namespace std;
+int main()
+{
+  float x=355;
+  float &y=x;
+  cout<<x<<endl;
+  cout<<y<<endl;
+  return 0;
+}  

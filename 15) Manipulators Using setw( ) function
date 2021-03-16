@@ -1,3 +1,6 @@
+//Manipulators in c++
+
+
 #inlude<iostream>
 using namespace std;
 int main()
